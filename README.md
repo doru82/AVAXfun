@@ -1,30 +1,48 @@
-### MMFun - 1-Click Meme Coin Launcher on AVAX
-### Description
+# AVAXfun - 1-Click Meme Coin Launcher
 
-MMFun is a simple app for launching meme coins on Avalanche (AVAX) with a single click. 
-It uses a smart contract on Fuji Testnet (for testing) or Mainnet (real). 
-Includes an option for adding auto liquidity on Pangolin.
+The cheapest way to launch meme coins on Avalanche.
 
-### Features
-Wallet connection (MetaMask/Core). 
-Fill in name, symbol, supply. Launch token + optional liquidity (80% in pool, 20% to you). 
-Fee: 0.5 AVAX (test/real).
+## Why AVAXfun?
 
-### How to Use
+| Feature        | AVAXfun  | Competitors |
+|----------------|----------|-------------|
+| Launch Fee     | 0.5 AVAX | 1.9 AVAX |
+| Auto Liquidity |      ✅ | ✅ |
+| Pangolin Integration| ✅ | ✅ |
+| Rate Limits         | ✅ | ❌ |
+| Supply Caps         | ✅ | ❌ |
+| Open Source         | ✅ | ❌ |
 
-Open https://m-fun.vercel.app/ in your browser.
-Connect wallet on Avalanche (Chain ID 43114).
-Fill in the fields and launch.
+**Save 75% on every launch!**
 
-### Technologies
+## Features
 
-Solidity for the contract.
-Ethers.js fr the frontend.
-Host: Vercel.
+- 🚀 One-click token deployment
+- 💧 Automatic liquidity on Pangolin (80% pool, 20% creator)
+- 🛡️ Built-in safety features
+- ⚡ Deploy in ~2 minutes
+- 📱 MetaMask/Core Wallet support
 
-### Instalation for dev
+## How to Use
 
-Clone repo: git clone https://github.com/username/MMfun
-Open in VS Code, use Live Server.
+1. Visit https://ava-xfun.vercel.app/
+2. Connect wallet (MetaMask/Core)
+3. Fill in token details
+4. Click "Launch + Add Liquidity"
+5. Done! Your token is live & tradeable
 
-Made by doru82. Test and givefeedback on X.
+## Smart Contract
+
+Deployed on Avalanche C-Chain (Mainnet)
+- Contract: `0xd5AA784dcF759f477af9c4a05245b8151826CCCf`
+- Verified on Snowtrace
+- Open source code
+
+## Disclaimer
+
+⚠️ Experimental project. Use at your own risk. No guarantees. DYOR.
+
+## Support
+
+Questions? Open an issue or reach out on @doruOlt on X
+
